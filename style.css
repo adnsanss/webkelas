@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "poppins";
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+nav {
+    background-color: #004a99;
+    margin-top: 10px;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: o;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li :last-child {
+    margin-right: 0;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+nav ul li a:hover {
+    background-color: #003366;
+    border-radius: 5px;
+}
+main {
+    background-color: white;
+    padding: 40px 0;
+}
+#beranda {
+    text-align: center;
+}
+#beranda h1 {
+    font-size: 2.5 em;
+    margin-bottom: 20px;
+}
+#beranda p {
+    font-size: 1.1 em;
+    margin-bottom: 30px;
+}
+.Pengumuman table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.Pengumuman th,.Pengumuman td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px;
+}
+.Pengumuman th {
+    background-color: #0073e6;
+    color: white;
+}
+.Pengumuman td {
+    background-color: #f9f9f9;
+}
+.footer {
+    background-color: #004a99;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+.footer p {
+    font-size: 1em;
+    margin: 0;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;   
+}
