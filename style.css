@@ -10,7 +10,7 @@ body {
     color: #333;
 }
 header {
-    background-color: #0073e6;
+    background-color: #FFD716;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -29,7 +29,7 @@ header p {
     max-width: 1200px;
 }
 nav {
-    background-color: #004a99;
+    background-color: #FECC13;
     margin-top: 10px;
 }
 nav ul {
@@ -54,7 +54,7 @@ nav ul li a {
     transition: background-color 0.3s ease;
 }
 nav ul li a:hover {
-    background-color: #003366;
+    background-color: #ff9d00;
     border-radius: 5px;
 }
 main {
@@ -83,14 +83,14 @@ main {
     padding: 10px;
 }
 .Pengumuman th {
-    background-color: #0073e6;
+    background-color: #FECC13;
     color: white;
 }
 .Pengumuman td {
     background-color: #f9f9f9;
 }
 .footer {
-    background-color: #004a99;
+    background-color: #FECC13;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -106,4 +106,21 @@ main {
 }
 .footer a:hover {
     text-decoration: underline;   
+}
+.pengumuman-card {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    flex: 0 1 calc(50% - 20px);
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
 }
